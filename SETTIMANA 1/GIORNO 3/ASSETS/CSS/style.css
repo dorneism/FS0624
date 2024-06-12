@@ -1,0 +1,78 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100%;
+
+    text-align: center;
+    color: rgb(29, 124, 124);
+}
+
+main,
+footer {
+    width: 50%;
+    margin: auto;
+}
+
+.logo {
+    width: 15em;
+}
+
+
+header h2 {
+    font-size: 1em;
+    background-color: rgb(253, 251, 241);
+    border-top: 1px #FFD977 solid;
+    height: 2em;
+    padding: 1em;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.video {
+    border-radius: 6px;
+}
+
+
+.copy {
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(167, 167, 167);
+}
+
+.featured {
+
+    border-left: #FFD977 1px solid;
+    width: 50%;
+    padding-left: 1em;
+}
+
+#red {
+    color: rgb(181, 71, 16);
+}
+
+.featured p a:link {
+    color: rgb(67, 148, 148);
+}
+
+.ingredients {
+
+    border-bottom: 1px solid rgb(163, 255, 255);
+    padding: 1em;
+
+}
+
+
+footer p a:link {
+    text-decoration: none;
+    color: rgb(67, 148, 148);
+}
